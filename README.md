@@ -4,7 +4,7 @@
   - "+" : Summation
   - "-" : Subtraction
   - "*" : Multiplication
-  - / : Division
+  - "/" : Division
   - % : Percent
   - AC: Delete All
   - DEL: Delete 1 Element
