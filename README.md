@@ -3,7 +3,7 @@
 ## Function
   - "+" : Summation
   - "-" : Subtraction
-  - * : Multiplication
+  - "*" : Multiplication
   - / : Division
   - % : Percent
   - AC: Delete All
