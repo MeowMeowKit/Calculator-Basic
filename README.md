@@ -1,8 +1,8 @@
 # Calculator Basic With ReactJs
 
 ## Function
-  - + : Summation
-  - - : Subtraction
+  - "+" : Summation
+  - "-" : Subtraction
   - * : Multiplication
   - / : Division
   - % : Percent
