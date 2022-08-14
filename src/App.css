@@ -1,0 +1,72 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   border-radius: 0px;
+   box-sizing: border-box;
+   z-index: -1;
+}
+.App {
+   background: linear-gradient(to right, #4daf54, #3d8888);
+}
+
+.calculator {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.calculator-screen {
+   z-index: 1;
+   width: 320px;
+   height: 450px;
+   margin: 0 auto;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   background: linear-gradient(to right top, #2126b6, #1bffff);
+}
+
+.screen-row input {
+   width: 300px;
+   height: 60px;
+   background: #ffffff;
+   border: 0px;
+   padding: 10px;
+   text-align: right;
+}
+
+#screen-question {
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+#screen-answer {
+   font-size: 40px;
+}
+
+.btnaction {
+   background-color: #f6a815 !important;
+}
+
+input:focus {
+   outline: none;
+}
+
+input[type="button"] {
+   width: 75px;
+   background: #ffffff;
+   border: 1px solid #222;
+   padding: 10px 20px;
+   margin: 7px 0px;
+   color: black;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 2px;
+}
+
+input[type="button"]:active {
+   background: #ccc;
+}
